@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>css 메뉴</title>
+		<style>
+			.navi a:link, .navi a:visited{
+				border: none;
+				background-color: #02a9f7;
+				text-decoration: none;
+				color : #000000
+			}
+			.navi a:hover {
+				color: #ff0000;
+				background-color: #0000ff;
+				border-radius: 10px;
+			}
+			.navi a:focus {
+				color : #ff0000;
+				background-color: #00ff00;
+				border-radius: 10px;
+			}
+			.navi a:active{
+				background-color: #ff0000;
+				color : #ffffff;
+				border-radius: 80%;
+			}
+			
+			ul {
+				list-style: none;
+			}
+			ul li {    
+				float:left;
+			}
+			a{
+				display:block;
+				padding:10px 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navi">
+			<ul>
+				<li><a href="#">홍길동1</a></li>
+				<li><a href="#">홍길동2</a></li>
+				<li><a href="#">홍길동3</a></li>
+				<li><a href="#">홍길동4</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>
