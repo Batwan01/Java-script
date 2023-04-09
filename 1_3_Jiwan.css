@@ -1,0 +1,11 @@
+#fix {
+  font-size: 20pt;
+  text-align:center;
+  border: 5px double;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 300px;
+  box-sizing: border-box;
+  background:linear-gradient(to right, #ff0000,#00ff00,#0000ff);
+  color: #ffffff;
+}
