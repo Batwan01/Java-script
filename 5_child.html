@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>고급 선택자</title>
+  <style>
+   div {
+		width:150pt;
+		}
+		div h3 {
+				background-color: #ffff00;
+				border: 1px dashed;
+				border-color: #ff0000;
+		}
+		ul > li li:nth-child(odd), li:nth-child(2n+1){
+				color: #ff0000;
+				background-color: #00ff00;
+				border: 1px solid #000000;
+		}
+  </style>
+</head>
+<body>
+  
+  <div>
+	<span>
+    <h3>야구</h3>
+		<ul>
+			<li>MLB
+			<li>KBO
+			<li>JBL
+			<li>MXB
+		</ul>
+		<hr color=blue>
+    <h3>축구</h3>
+		<ul>
+			<li>프리미어리그
+			<li>라리가
+			<li>분데스리가
+			<li>리그앙
+		</ul>
+		<hr color=blue>
+	<h3>골프	</h3>
+		<ul>
+			<li>PGA
+			<li>LPGA
+			<li>KPGA
+			<li>ELP
+		</ul>
+		<hr color=blue>
+	</span>
+  </div>
+
+</body>
+</html>
